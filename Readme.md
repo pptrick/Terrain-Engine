@@ -4,7 +4,7 @@
 
 
 
-<img src="C:\Users\Administrator\Desktop\intro.png" style="zoom:50%">
+<img src="https://github.com/pptrick/Terrain-Engine/blob/master/show%20picture/intro.png" style="zoom:10%">
 
 
 
@@ -30,7 +30,7 @@ The result is shown in the following picture:
 
 
 
-<img src="C:\Users\Administrator\Desktop\mountain.png" style="zoom:50%">
+<img src="https://github.com/pptrick/Terrain-Engine/blob/master/show%20picture/mountain.png" style="zoom:50%">
 
 ## Rock Textures on mountain
 
@@ -63,7 +63,7 @@ $$
 
 The wave is shown in the following picture,  the shadings on distant waves are obvious.
 
-<img src="C:\Users\Administrator\Desktop\sea.png" style="zoom:50%">
+<img src="https://github.com/pptrick/Terrain-Engine/blob/master/show%20picture/sea.png" style="zoom:50%">
 
 
 
@@ -71,7 +71,7 @@ The wave is shown in the following picture,  the shadings on distant waves are o
 
 This is a way to realize the interaction between water and mountain edge. To our experience, water will attached on the ground and flow slower than the wave. So I added this kind of "attaching water" to realize the interaction.
 
-<img src="C:\Users\Administrator\Desktop\wave.png" style="zoom:50%">
+<img src="https://github.com/pptrick/Terrain-Engine/blob/master/show%20picture/wave.png" style="zoom:50%">
 
 
 
@@ -79,7 +79,7 @@ This is realized by finding the silhouette of the mountain and reattaching the t
 
 The most important part is to find the points around sea level on the mountain. Dense point selection can help find them. The silhouette is shown as the red part of the following picture:
 
-<img src="C:\Users\Administrator\Desktop\silhouette.png" style="zoom:80%">
+<img src="https://github.com/pptrick/Terrain-Engine/blob/master/show%20picture/silhouette.png" style="zoom:80%">
 
 
 
@@ -87,7 +87,7 @@ The most important part is to find the points around sea level on the mountain. 
 
 No function can be found in openGL to create the reflection shadings. So I use a little trick to create it,  reversing it. By mirroring the model to z<0 plane, the reflection can be found "through" the water.
 
-<img src="C:\Users\Administrator\Desktop\reflection.png" style="zoom:50%">
+<img src="https://github.com/pptrick/Terrain-Engine/blob/master/show%20picture/reflection.png" style="zoom:50%">
 
 ### limitation
 
@@ -95,7 +95,7 @@ We cannot retain both the edge and the "reverse model". The edge will be shown s
 
 Since we can't simply just reverse the mountain, which will lead to the water interaction error, the limit preserved. Adjusting the transparency of the edge may solve this problem.
 
-<img src="C:\Users\Administrator\Desktop\limitation.png" style="zoom:50%">
+<img src="https://github.com/pptrick/Terrain-Engine/blob/master/show%20picture/limitation.png" style="zoom:50%">
 
 
 
