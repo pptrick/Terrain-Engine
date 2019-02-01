@@ -56,10 +56,9 @@ The wave function is:
 Position.z = Position.z - 3*sin(15*Time+20*Position.x + 20*Position.y)-3*sin(15*Time-20*Position.x + 20*Position.y) - 3
 ~~~
 
-which stands the wave function:
-$$
-z=A_0\sin(\omega{t}+kx)+z_0
-$$
+which stands the wave function:  
+<a href="https://www.codecogs.com/eqnedit.php?latex=z=A_0\sin(\omega{t}&plus;kx)&plus;z_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?z=A_0\sin(\omega{t}&plus;kx)&plus;z_0" title="z=A_0\sin(\omega{t}+kx)+z_0" /></a>
+
 
 The wave is shown in the following picture,  the shadings on distant waves are obvious.
 
